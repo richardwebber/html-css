@@ -47,21 +47,21 @@
           </tbody>
         </table>
       </section>
-      
+
       <section>
         <h2>Order Form</h2>
         <form action="">
-          <fieldset>
+          <div>
             <label for="sender">Your name</label>
-            <input type="text" name="sender" />
-          </fieldset>
+            <input type="text" name="sender" placeholder="Name"/>
+          </div>
 
-          <fieldset>
+          <div>
             <label for="recipient">Who are we sending this to?</label>
-            <input type="text" name="recipient" />
-          </fieldset>
+            <input type="text" name="recipient" placeholder="Address"/>
+          </div>
 
-          <fieldset>
+          <div class="smoothies">
             <label for="recipient">Choose a smoothie</label>
             <select name="smoothie">
               <option value="">Please choose an option</option>
@@ -71,30 +71,30 @@
               <option value="white grape ranger">White Grape Ranger</option>
               <option value="blueberry blast">Blueberry Blast</option>
             </select>
-          </fieldset>
+          </div>
 
-          <fieldset class="inline-label">
+          <div class="inline-label">
             <span for="">When should we deliver</span>
-            <input type="radio" name="delivery-time" class="inline-label" value="asap" />
+            <input type="radio" name="delivery-time" value="asap" />
             <label>As soon as possible</label>
 
-            <input type="radio" name="delivery-time" class="inline-label" value="am" />
+            <input type="radio" name="delivery-time" value="am" />
             <label>Morning</label>
 
-            <input type="radio" name="delivery-time" class="inline-label" value="pm" />
+            <input type="radio" name="delivery-time" value="pm" />
             <label>Afternoon</label>
-          </fieldset>
+          </div>
 
-          <fieldset>
+          <div>
             <label for="message">Enter your message</label>
-            <textarea name="message" class="text-area"></textarea>
-          </fieldset>
+            <textarea name="message" class="text-area" placeholder="Put any special requests here..."></textarea>
+          </div>
 
-          <fieldset>
-            <label >Subscribe to our newsletter?</label>
+          <div class="inline-label">
+            <label>Subscribe to our newsletter?</label>
             <input type="checkbox" name="subscribe" value="yes" checked />
-          </fieldset>
-
+          </div>
+          <br />
           <button type="submit">Submit</button>
         </form>
       </section>
