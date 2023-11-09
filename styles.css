@@ -1,0 +1,56 @@
+body {
+    font-family: system-ui, sans-serif;
+    background: #d1ffcc;
+    text-align: center;
+  }
+
+  fieldset {
+    border: none;
+  }
+
+  .lead {
+    font-size: 1.5em;
+    font-weight: 300;
+  }
+
+  section {
+    background: #edfaf1;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px 0;
+  }
+
+  section h2 {
+    margin-top: 0;
+  }
+
+  table {
+    border-collapse: collapse;
+    margin: auto;
+  }
+
+  th {
+    text-align: start;
+    border-bottom: 1px solid black ;
+    border-collapse: collapse;
+  }
+
+  td, th {
+    padding: 5px 10px 0 10px;
+  }
+
+  .tableleft {
+    text-align: left;
+  }
+
+  .price {
+    text-align: end;
+  }
+
+  label {
+    display: block;
+  }
+
+  inline-label {
+    display: inline;
+  }
